@@ -1,4 +1,4 @@
-# django_search_app
+# Django Search Application (With User accounts and Email OTP verification)
 
 Steps to run the application:
 1. Clone the repository to your local machine
