@@ -4,15 +4,15 @@ Steps to run the application:
 1. Clone the repository to your local machine
 2. Make sure Python version 3 is installed (Python 3.9.7 used for this project)
 3. Make sure the latest version of Django is installed (Django 4.2.3 used for this project)
-4. Install Postgresql and Pgadmin 4 for database connection, and create a database with name `worlddb' in Pgadmin 4.
-5. Make following changes in `helloworld/setting.py` file for your db specifications:
+4. Install Postgresql and Pgadmin 4 for database connection, and create a database with name `worlddb` in Pgadmin 4.
+5. Make the following changes in `helloworld/setting.py` file for your DB specifications:
      in `DATABASES`, change `USERNAME` and `PASSWORD` as per your Postgres account.
-6. Also, chnage `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` with the credentials of the account from which you want to send mails.
-     To get `EMAIL_HOST_PASSWORD` of your google account:
-     1.  Go to "Manage your Account" > Security > 2-Step Verificatiob > App Passwords
-     2.  Generate password with any App and Device
+6. Also, chnage `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` in `settings.py` with the credentials of the account from which you want to send emails.
+     To get `EMAIL_HOST_PASSWORD` of your Google account:
+     1.  Go to "Manage your Account" > Security > 2-Step Verification > App Passwords
+     2.  Generate a password with any App and Device
      3.  Copy the generated code into `EMAIL_HOST_PASSWORD` field in `settings.py` file.
-7. Run the following commands in terminal to create db models:
+7. Run the following commands in the terminal to create db models:
      $python manage.py makemigrations
      $python manage.py migrate
    This will create required tables in the database.
