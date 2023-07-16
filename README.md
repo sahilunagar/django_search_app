@@ -20,9 +20,9 @@ Steps to run the application:
      $python manage.py migrate
    This will create required tables in the database.
 10. Execute following SQL files in your Postgres query window to insert Country, City and Language data:
-     1. SQL/country.sql
-     2. SQL/city.sql
-     3. SQL/country_language.sql
+     1. postgres_data/country.sql
+     2. postgres_data/city.sql
+     3. postgres_data/country_language.sql
         
 11. Now you can run the application in localhost, create users and "Search The World".
 12. $python manage.py runserver
