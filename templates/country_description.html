@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WorldSearch login</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{% static 'fonts/material-icon/css/material-design-iconic-font.min.css' %}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <div class="main">
+
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    <form id="signup-form" class="signup-form">
+                        {% csrf_token %}
+                        <h2 class="form-title">Welcome to {{country.name}}</h2>
+                        <div class="form-group">
+                            <table>
+                                <tr>
+                                  <td>Country code</td>
+                                  <td>{{country.code}}</td>
+                                </tr>
+                                <tr>
+                                   <td>Continent</td>
+                                   <td>{{country.continent}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Region</td>
+                                    <td>{{country.region}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Surface area</td>
+                                    <td>{{country.surface_area}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Independence year</td>
+                                    <td>{{country.indep_year}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Life Expectancy</td>
+                                    <td>{{country.life_expectancy}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Gross national product (GNP)</td>
+                                    <td>{{country.gnp}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>GNP Old</td>
+                                    <td>{{country.gnp_old}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Local Name</td>
+                                    <td>{{country.local_name}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Form of government</td>
+                                    <td>{{country.government_form}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Head of the state</td>
+                                    <td>{{country.head_of_state}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Capital</td>
+                                    <td>{{capital}}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Country code 2</td>
+                                    <td>{{country.code2}}</td>
+                                 </tr>
+                            </table>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                        <a href="/logout" class="loginhere-link">Logout</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
