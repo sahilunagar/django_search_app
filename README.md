@@ -37,4 +37,7 @@ Steps to run the application:
 17. Country page can be accessed from the City and Language page with the clickable links.
 18. Search page will only be accessible once User is logged in after OTP verification, otherwise user will be redirected to the Login page.
 19. User can Logout from any of the pages and will be redirected to the Sign-up/Login page.
-    
+
+    SignUp Page:
+    <img width="957" alt="signup_page" src="https://github.com/sahilunagar/django_search_app/assets/36361441/e3babcc6-6966-4c17-a9d7-a2df1ba2ce22">
+
