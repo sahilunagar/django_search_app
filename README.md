@@ -23,7 +23,7 @@ Steps to run the application:
 
      $python manage.py migrate
    This will create required tables in the database.
-10. Execute following SQL files in your Postgres query window to insert Country, City and Language data:
+10. Execute following SQL files (in the same order as below, to refrain from getting Foreign key constraint violation) in your Postgres query window to insert Country, City and Language data:
      1. postgres_data/country.sql
      2. postgres_data/city.sql
      3. postgres_data/country_language.sql
