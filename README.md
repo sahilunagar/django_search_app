@@ -13,6 +13,10 @@ Steps to run the application:
      1.  Go to "Manage your Account" > Security > 2-Step Verification > App Passwords
      2.  Generate a password with any App and Device
      3.  Copy the generated code into `EMAIL_HOST_PASSWORD` field in `settings.py` file.
+8. Install module `psycopg2`, required for Postgres connection.
+
+     $pip install psycopg2
+   
 8. Run the following commands in the terminal to create db models:
 
      $python manage.py makemigrations
