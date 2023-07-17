@@ -41,3 +41,23 @@ Steps to run the application:
     SignUp Page:
     <img width="957" alt="signup_page" src="https://github.com/sahilunagar/django_search_app/assets/36361441/e3babcc6-6966-4c17-a9d7-a2df1ba2ce22">
 
+    Login Page:
+    <img width="960" alt="login_page" src="https://github.com/sahilunagar/django_search_app/assets/36361441/7d5587ed-5ac9-496c-ab80-84a5c0fe94ca">
+
+    Search Page:
+    <img width="956" alt="search_page2" src="https://github.com/sahilunagar/django_search_app/assets/36361441/c50714fc-a173-40e9-be82-72d4977cac49">
+
+    City Description Page:
+    <img width="959" alt="city_description" src="https://github.com/sahilunagar/django_search_app/assets/36361441/87091af4-b724-44cf-a0e7-ec4f03ceae41">
+
+    Language Description Page:
+    <img width="956" alt="language description" src="https://github.com/sahilunagar/django_search_app/assets/36361441/3798903c-b819-4d5e-9ee2-f2b5f50f999a">
+
+    Country Description Page:
+    <img width="960" alt="country_description" src="https://github.com/sahilunagar/django_search_app/assets/36361441/a982577e-2404-4ecb-9a6b-fe714eeeecd4">
+
+
+
+
+
+
